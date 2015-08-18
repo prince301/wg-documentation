@@ -1,0 +1,29 @@
+---
+name: wg-documentation
+full_name: Documentation Working Group
+type: docs
+owner_type: "working-group"
+status: active
+testable: false
+description: >
+  We aim to organize all of 18F's information and make it universally accessible and useful, internally and externally.
+stage: live
+licenses:
+  wg-documentation:
+    name: Public Domain (CC0)
+    url: https://creativecommons.org/publicdomain/zero/1.0/ 
+links:
+- url: https://pages.18f.gov/wg-documentation/
+  text: 18F Documentation Working Group home page
+team:
+- github: mbland
+  role: lead
+- github: afeld
+- github: lsgitter
+- github: colinpmacarthur
+- github: ethanheppner
+- github: emileighoutlaw
+- github: gboone
+- github: wslack
+- github: jeremiak
+- github: hollyallen

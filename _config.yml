@@ -1,0 +1,86 @@
+baseurl: /wg-documentation
+
+# To use the shared 18F Guides styles when deploying to pages.18f.gov,
+# uncomment the following:
+#asset_root: /guides-template
+
+markdown: redcarpet
+name: 18F Documentation Working Group
+exclude:
+- go
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+
+permalink: pretty
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Introduction
+  url: index.html
+  internal: true
+- text: Main repository
+  url: https://github.com/18F/wg-documentation/
+  internal: false
+- text: .about.yml
+  url: https://github.com/18F/wg-documentation/blob/master/.about.yml
+  internal: false
+- text: Objectives and Key Results
+  url: https://docs.google.com/a/gsa.gov/document/d/1bZMjGK-FcUFwDhgtAA8LVVEGqxZirvEQyqPLFOnPF64/edit?usp=sharing
+  internal: false
+- text: Meeting agendas
+  url: https://drive.google.com/a/gsa.gov/folderview?id=0B8ub_y5rgCZRSFhuNEJodWVuODg&usp=sharing
+  internal: false
+- text: 18F Hub
+  url: https://hub.18f.gov/
+  internal: false
+  children:
+  - text: 18F Public Hub
+    url: https://18f.gsa.gov/hub/
+    internal: false
+  - text: 18F Hub repository
+    url: https://github.com/18F/hub/
+    internal: false
+- text: 18F Pages
+  url: https://pages.18f.gov/
+  internal: false
+  children:
+  - text: 18F Pages repository
+    url: https://github.com/18F/pages/
+    internal: false
+- text: 18F Guides
+  url: https://pages.18f.gov/guides/
+  internal: false
+  children:
+  - text: 18F Guides repository
+    url: https://github.com/18F/guides/
+    internal: false
+
+repos:
+- name: 18F Documentation Working Group
+  description: Main repository
+  url: https://github.com/18F/wg-documentation
+
+google_analytics_ua: UA-48605964-19
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "guides_style_18f_default"
