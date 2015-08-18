@@ -38,7 +38,7 @@ navigation:
   url: https://github.com/18F/wg-documentation/
   internal: false
 - text: .about.yml
-  url: https://github.com/18F/wg-documentation/blob/master/.about.yml
+  url: https://github.com/18F/wg-documentation/blob/18f-pages/.about.yml
   internal: false
 - text: Objectives and Key Results
   url: https://docs.google.com/a/gsa.gov/document/d/1bZMjGK-FcUFwDhgtAA8LVVEGqxZirvEQyqPLFOnPF64/edit?usp=sharing
