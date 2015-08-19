@@ -2,7 +2,7 @@ baseurl: /wg-documentation
 
 # To use the shared 18F Guides styles when deploying to pages.18f.gov,
 # uncomment the following:
-#asset_root: /guides-template
+asset_root: /guides-template
 
 markdown: redcarpet
 name: 18F Documentation Working Group
