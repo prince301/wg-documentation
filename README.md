@@ -25,7 +25,6 @@ To serve the site locally:
 ```shell
 $ git clone git@github.com:18F/wg-documentation.git
 $ cd wg-documentation
-$ ./go init
 $ ./go serve
 ```
 
